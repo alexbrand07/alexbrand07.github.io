@@ -104,6 +104,9 @@ footer p {
 .social-links a .fa-github:hover {
     color: var(--github-grey);
 }
+.social-links a .fa-linkedin:hover {
+    color: lightblue;
+}
 
 
 
@@ -166,6 +169,7 @@ header #menu {
     --insta-pink:#c13584;
     --twitter-blue: #1da1f2;
     --github-grey:#3b5998;
+    --linkedin-blue: #3b5998;
 }
 * {
     margin: 0;

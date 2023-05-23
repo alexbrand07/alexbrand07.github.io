@@ -204,3 +204,22 @@ ul li{
     height: 1px;
     background: #ff9301
 }
+
+
+footer {   
+    background-color: #202020;
+    color: #bbb;
+    text-align:center;
+    padding: 5px;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    grid-area: footer;
+    transition: all 0.5s;
+}
+footer p {
+    padding: 2px 0;
+    color: white;
+
+}

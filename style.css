@@ -3,14 +3,45 @@
 *{
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
     font-family: "Barlow", sans-serif;
+}
+ /* "Body" added from video guide:  https://www.youtube.com/watch?v=B--aGgXY054 */
+body{
+    font-size: 16px;
+    overflow-x:hidden;
+    font-weight:normal;
 }
 
 .container {
+    margin: 0 auto;      /* added */
+    padding-left:15px;   /* added */
+    padding-right: 15px; /* added */
     width: 100%;
     height: 100vh;
     background: #424551;
 }
+
+/* added */
+/* @media (min-width: 768px){
+    .container{
+        width: 750px;
+    }
+} */
+
+/* added */
+/* @media (min-width: 992px){
+    .container{
+        width: 970px;
+    }
+} */
+
+/* added */
+/* @media (min-width: 1200px){
+    .container{
+        width: 1170px;
+    }
+} */
 
 .bg-img{
     background-image: url(img/bg.jpg);
@@ -34,7 +65,7 @@ a{
 
 }
 
-ul li{
+ul, li{
     list-style: none;
     display: inline-block;
 }
@@ -116,6 +147,9 @@ ul li{
 .cv-btn{
     margin-top:40px;
 }
+/* .hire-btn{
+    margin-top:40px;
+} */
 
 .cv-btn a{
    background: #ff9301;
@@ -126,12 +160,26 @@ ul li{
    border-radius: 50px;
    transition: all 0.5s;
 }
+/* .hire-btn a{
+    background: #ff9301;
+    font-size: 19px;
+    letter-spacing: 1px;
+    border: 2px solid #ff9301;
+    padding: 13px 50px;
+    border-radius: 50px;
+    transition: all 0.5s;
+ } */
 
 .cv-btn a:hover{
     background: transparent;
     color: #fff;
     border: 1px solid #fff;
  }
+/* .hire-btn a:hover{
+    background: transparent;
+    color: #fff;
+    border: 1px solid #fff;
+ } */
 
 .quick-links{
     position: absolute;
@@ -223,3 +271,52 @@ footer p {
     color: white;
 
 }
+
+
+/* #hero-banner{
+    position:relative;
+}
+
+#hero-banner .banner{
+    background-image: url(img/bg.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center center;
+    height: 100vh; 
+}
+
+#hero-banner .banner .app-text{
+    position: absolute;
+    top: 15%;
+    left: 0;
+    right: 0;
+    text-align: center;
+    transform: translateY(40%);
+    transform: translateX(40%);
+    color: #fff;
+}
+
+
+#hero-banner .banner .app-text .cv-btn .btn{
+    margin-right: 20px;
+    position: relative;
+    z-index: 1;
+}
+
+.btn{
+    padding: 10px 20px;
+    color: #fff;
+    font-size: 14px;
+    font-weight:300;
+    display:inline-block;
+    position: relative;
+    z-index: 1;
+}
+
+/* .btn-white{
+
+} 
+
+.section{
+    padding:100px;
+} */
